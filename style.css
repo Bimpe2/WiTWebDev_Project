@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 238, 206)
+  } 
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    background: lightskyblue;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: auto;
+    display: block;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+
+  nav a:hover {
+    text-decoration:solid;
+  }
+  
+  /* ensure content isn't hidden if you later make header fixed (optional) */
+  main {
+    padding: 20px;
+  }
